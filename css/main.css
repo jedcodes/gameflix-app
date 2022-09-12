@@ -1,0 +1,83 @@
+/**
+
+    GLOBAL CSS RULES
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primaryColor: #141414;
+    --secondryColor: #fff;
+    --logoColor: #E50914;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.7;
+    background: var(--primaryColor);
+    color: var(--secondryColor);
+}
+
+/**
+
+    HEADER CSS RULES
+
+*/
+
+.startsidenHero {
+    background-image: url();
+}
+
+header {
+    height: 30vh;
+    padding: 1em 1.5em;
+    background: #ccc;
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+    align-items: center;
+    z-index: 1;
+}
+
+.header_left {
+    display: flex;
+    flex: 9;
+    align-items: center;
+}
+
+.logo_title {
+    color: var(--logoColor);
+    font-size: 1.2rem;
+}
+
+.navBar_list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.navBar_list-items {
+    font-size: .8rem;
+    margin-left: .5em;
+}
+.navBar_list-items a {
+    text-decoration: none;
+    color: var(--secondryColor);
+    cursor: pointer;
+}
+
+.header_right {
+    flex: 1;
+}
+
+.brukernProfil {
+    width: 40px;
+    height: 40px;
+    background: var(--logoColor);
+}
